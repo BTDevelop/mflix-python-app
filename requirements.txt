@@ -11,3 +11,4 @@ jupyter==1.0.0
 jupyter-client==5.2.3
 jupyter-console==5.2.0
 jupyter-core==4.4.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
