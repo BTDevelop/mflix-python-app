@@ -10,4 +10,9 @@ faker==0.8.13
 jupyter==1.0.0
 jupyter-client==5.2.3
 jupyter-console==5.2.0
-jupyter-core==4.4.0
+jupyter-core==4.11.2
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
